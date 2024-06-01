@@ -287,7 +287,7 @@ with gr.Blocks(css=".gradio-container {max-width: 544px !important}", analytics_
                         "width": 768,
                         "height": 512,
                         "image_denoise": 1,
-                        "latent_upscale": false,
+                        "latent_upscale": true,
                         "latent_upscale_size": 1.5,
                         "latent_upscale_denoise": 0.55
                         }
