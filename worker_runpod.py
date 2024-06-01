@@ -14,6 +14,10 @@ import gc
 import nodes, IPAdapterPlus
 from totoro import model_management
 
+discord_token = os.getenv('com_camenduru_discord_token')
+web_uri = os.getenv('com_camenduru_web_uri')
+web_token = os.getenv('com_camenduru_web_token')
+
 def download_file(url, save_dir='/content/TotoroUI/models'):
     os.makedirs(save_dir, exist_ok=True)
     file_name = url.split('/')[-1]
