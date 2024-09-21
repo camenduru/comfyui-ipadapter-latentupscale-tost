@@ -326,6 +326,14 @@
     "latent_upscale_denoise": {
       "type": "number",
       "description": "Latent Upscale Denoise"
+    },
+    "example": {
+      "type": "string",
+      "image1": "https://fakeimg.pl/1024x1024/282828/eae0d0/?text=input#.png",
+      "image2": "https://i.ibb.co/CbvtCv0/ip.png",
+      "image3": "https://fakeimg.pl/1024x1024/282828/eae0d0/?text=output#.png",
+      "image4": "https://files.catbox.moe/el3dsp.png",
+      "widget": "example"
     }
   },
   "buttons": [
