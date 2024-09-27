@@ -15,6 +15,12 @@
       ],
       "widget": "readme"
     },
+    "upload1": {
+      "type": "string",
+      "widget": "upload",
+      "upload_url": "https://litterbox.catbox.moe/resources/internals/api.php",
+      "property": "red_part"
+    },
     "red_part": {
       "type": "string",
       "description": "Red Part Image URL",
@@ -41,6 +47,12 @@
     "red_prompt_weight": {
       "type": "number",
       "description": "Red Prompt Weight"
+    },
+    "upload2": {
+      "type": "string",
+      "widget": "upload",
+      "upload_url": "https://litterbox.catbox.moe/resources/internals/api.php",
+      "property": "green_part"
     },
     "green_part": {
       "type": "string",
@@ -69,6 +81,12 @@
       "type": "number",
       "description": "Green Prompt Weight"
     },
+    "upload3": {
+      "type": "string",
+      "widget": "upload",
+      "upload_url": "https://litterbox.catbox.moe/resources/internals/api.php",
+      "property": "black_part"
+    },
     "black_part": {
       "type": "string",
       "description": "Black Part Image URL",
@@ -95,6 +113,12 @@
     "black_prompt_weight": {
       "type": "number",
       "description": "Black Prompt Weight"
+    },
+    "upload4": {
+      "type": "string",
+      "widget": "upload",
+      "upload_url": "https://litterbox.catbox.moe/resources/internals/api.php",
+      "property": "color_mask"
     },
     "color_mask": {
       "type": "string",
